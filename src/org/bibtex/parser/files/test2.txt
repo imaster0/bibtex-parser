@@ -1,0 +1,125 @@
+@String{jan = "January"}
+@String{feb = "February"}
+@String{mar = "March"}
+@String{apr = "April"}
+@String{may = "May"}
+@String{jun = "June"}
+@String{jul = "July"}
+@String{aug = "August"}
+@String{sep = "September"}
+@String{oct = "October"}
+@String{nov = "November"}
+@String{dec = "December"}
+
+% Copyright (C) 1988, 2010 Oren Patashnik.
+% Unlimited copying and redistribution of this file are permitted if it
+% is unmodified.  Modifications (and their redistribution) are also
+% permitted, as long as the resulting file is renamed.
+
+@BOOKLET{booklet-full,
+   author = "Jill Knvth and Anna Nowak and Jan Kowalski",
+   title = "The Programming of Computer Art",
+   howpublished = "Vernier Art Center",
+   address = "Stanford, California",
+   month = feb # " P",
+   year = 1988,
+   note = "This is a full BOOKLET entry",
+}
+
+@MISC{misc-minimal,
+   key = "Missilany",
+   note = "This is a minimal MISC entry",
+}
+
+@ARTICLE{key,
+    editor = "editor",
+    title = "title",
+    journal = "journal",
+    year = "year",
+}
+
+@ARTICLE{key2,
+    author = "author abc",
+    title = "title",
+    journal = "journal",
+    year = "year",
+}
+
+@BOOKLET{booklet-full1,
+   author = "Jade Kennedy",
+   title = "ABC",
+   howpublished = "ARTS",
+   address = "Tarnow" # mar,
+   month = mar,
+   year = "1988",
+}
+
+
+@INBOOK{inbook-minimal,
+   author = "Donald E. Knuth",
+   title = "Fundamental Algorithms",
+   publisher = "Addison-Wesley",
+   year = "1973",
+   chapter = "1.2",
+   pages = "11-12",
+}
+  
+
+
+@INBOOK{inbook-full,
+   author = "Donald Knuth",
+   title = "Fundamental Algorithms",
+   volume = "1",
+   series = "The Art of Computer Programming",
+   publisher = "Addison-Wesley",
+   address = "Reading, Massachusetts",
+   edition = "Second",
+   month = "10~" # jan,
+   year = "1973",
+   type = "Section",
+   chapter = "1.2",
+   pages = "10--119",
+   note = "This is a full INBOOK entry",
+}
+
+@BOOK{book-full,
+   author = "Donald Knuth",
+   title = "Seminumerical Algorithms",
+   volume = "2",
+   series = "The Art of Computer Programming",
+   publisher = "Addison-Wesley",
+   address = "Reading, Massachusetts",
+   edition = "Second",
+   month = "10 " # jan,
+   year = "1981",
+   note = "This is a full BOOK entry",
+}
+
+@BOOK{book-minimal,
+   author = "Donald | Knuth",
+   title = "Seminumerical Algorithms",
+   publisher = "Addison-Wesley",
+   year = "1981",
+}
+
+@MISC{inbook-crossref,
+}
+
+@MASTERSTHESIS{mastersthesis-minimal,
+   author = "E'douard Masterly",
+   title = "Mastering Thesis Writing",
+   school = "Stanford University",
+   year = "1988",
+}
+
+@MASTERSTHESIS{mastersthesis-full,
+   author = "E'douard Masterly",
+   title = "Mastering Thesis Writing",
+   school = "Stanford University",
+   type = "Master's project",
+   address = "English Department",
+   month = aug,
+   year = "1988",
+   note = "This is a full MASTERSTHESIS entry",
+}
+
